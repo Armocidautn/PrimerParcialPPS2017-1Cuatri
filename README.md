@@ -45,3 +45,7 @@ Enunciado del primer parcial de la práctica profesional supervisada 2017 , prim
 
 
 </ol>
+
+
+<h1>Equipos Segundo Parcial</h1>
+https://goo.gl/forms/VJshRQnTO1zWJTpU2
