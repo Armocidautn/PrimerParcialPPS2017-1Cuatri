@@ -29,11 +29,7 @@ Enunciado del primer parcial de la práctica profesional supervisada 2017 , prim
    <li> debe tener mostrar los ultimos diez juegos empatados ( usuario y fecha)  </li>
    <li> debe tener mostrar los ultimos diez juegos perdidos ( usuario y fecha)  </li>
    <li> debe tener mostrar los ultimos diez juegos ganados ( usuario y fecha) 
-	<ol>
-		<li>por cada boton correcto emita un sonido y vibre una vez </li>
-	  	<li> Si la respuesta es erronea , que vibre dos veces y emita otro sonido </li>	  	
-
-	</ol>
+	
 	 </li>
 </ol>
 <h6 id="inicializacionDelObjeto"> <strong>c. </strong> Piano Temático</h6>
