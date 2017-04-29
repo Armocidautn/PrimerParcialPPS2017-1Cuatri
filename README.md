@@ -28,9 +28,7 @@ Enunciado del primer parcial de la práctica profesional supervisada 2017 , prim
    <li> debe tener guardar los resultados </li>
    <li> debe tener mostrar los ultimos diez juegos empatados ( usuario y fecha)  </li>
    <li> debe tener mostrar los ultimos diez juegos perdidos ( usuario y fecha)  </li>
-   <li> debe tener mostrar los ultimos diez juegos ganados ( usuario y fecha) 
-	
-	 </li>
+   <li> debe tener mostrar los ultimos diez juegos ganados ( usuario y fecha)  </li>
 </ol>
 <h6 id="inicializacionDelObjeto"> <strong>c. </strong> Piano Temático</h6>
 <ol>
