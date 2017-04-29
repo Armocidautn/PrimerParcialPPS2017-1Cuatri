@@ -20,10 +20,9 @@ Enunciado del primer parcial de la práctica profesional supervisada 2017 , prim
 </ol>
 **Extras :
 <ol>
-		<li>por cada boton correcto emita un sonido y vibre una vez </li>
-	  	<li> Si la respuesta es erronea , que vibre dos veces y emita otro sonido </li>	  	
-
-	</ol>
+<li>por cada boton correcto emita un sonido y vibre una vez </li>
+<li> Si la respuesta es erronea , que vibre dos veces y emita otro sonido </li>
+</ol>
 <h6 id="inicializacionDelObjeto"> <strong>b. </strong> Piedra papel o tijera</h6>
 <ol>
 	<li>crear el juego para competir con la maquina </li>
