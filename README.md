@@ -45,6 +45,28 @@ Enunciado del primer parcial de la práctica profesional supervisada 2017 , prim
 
 
 </ol>
+<h1>Recuperatorios</h1>
+<h6 id="inicializacionDelObjeto"> <strong>A. </strong> Trivia</h6>
+<ol>
+	<li>Todos los datos deben estar guardados en Firebase </li>
+  	<li>Mostrar las ultimas diez respuestas ingresadas al sistemas, Sin importar el usuario</li>
+ 
+
+</ol>
+<h6 id="inicializacionDelObjeto"> <strong>b. </strong> Piedra papel o tijera</h6>
+<ol>
+	<li>Todos los datos deben estar guardados en Firebase </li>
+	<li>Se debe agregar una animacion a cada boton </li>
+	<li>se debe agregar un spinner de 1 segundo emulando el tiempo de demora de la maquina</li>
+ 
+</ol>
+<h6 id="inicializacionDelObjeto"> <strong>c. </strong> Piano Temático</h6>
+<ol>
+	<li>Todos los datos deben estar guardados en Firebase </li>
+  <li> Se debe ocupar el 100% de la pantalla del dispositivo </li>
+  <li> las ultimas tres melodias tocadas, deben ser guardadas y reproducidas por botones relacionados </li>
+</ol>
+	
 
 
 <h1>Equipos Segundo Parcial</h1>
