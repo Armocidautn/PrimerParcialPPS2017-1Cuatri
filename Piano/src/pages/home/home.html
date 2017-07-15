@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+     <ion-buttons end ><button ion-button (click)="about()"><p>ABOUT</button></ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+  <ion-content padding style="background-image:url('assets/imagenes/fondo.png');background-size:cover">
+  <div style="padding-top:-40px;height:100%">
+  <div style="width:50%;height:80%;display:inline-block">
+    <div style="padding:4px;height:25%">
+      <button ion-button outline style="width:100%;height:100%" (click)="reproducir(0)"><img style="width:100%;height:100%"  src="assets/imagenes/guitarrahd.png"> </button>
+    </div>
+    <div style="padding:4px;height:25%">
+      <button ion-button outline (click)="reproducir(1)" style="width:100%;height:100%"  ><img style="width:100%;height:100%" src="assets/imagenes/flautaa.jpg"> </button>
+    </div >
+        <div style="padding:4px;height:25%">
+      <button style="width:100%;height:100%" ion-button outline (click)="reproducir(2)"><img style="width:100%;height:100%" src="assets/imagenes/arpahd.png"></button>
+    </div >
+  </div>
+ <div style="width:50%;height:80%;display:inline-block">
+    <div style="padding:4px;height:25%">
+<button ion-button outline style="width:100%;height:100%"  (click)="reproducir(3)"><img style="width:100%;height:100%" src="assets/imagenes/platilloshd.png"> </button>    </div>
+    <div style="padding:4px;height:25%">
+<button ion-button outline style="width:100%;height:100%"  (click)="reproducir(4)"><img style="width:100%;height:100%" src="assets/imagenes/violinhd.png"> </button>    </div>
+        <div style="padding:4px;height:25%">
+<button ion-button outline  style="width:100%;height:100%"  (click)="reproducir(5)"><img style="width:100%;height:100%" src="assets/imagenes/piano.png"></button>    </div>
+
+  </div >
+  </div>
+  <div style="margin-top:-210px" align="center"><button ion-button block color="dark"  (click)="GuardarSecuencia()">GUARDAR SECUENCIA</button></div>
+  <div style="margin-top:2px" align="center"><button ion-button block color="dark" *ngIf="condicion0" (click)="ReproducirS0()">{{sonidoBtn0}}</button></div>
+  <div style="margin-top:2px" align="center"><button ion-button block color="dark" *ngIf="condicion1" (click)="ReproducirS1()">{{sonidoBtn1}}</button></div>
+  <div style="margin-top:2px;margin-bottom:35px" align="center"><button ion-button block color="dark" *ngIf="condicion2" (click)="ReproducirS2()">{{sonidoBtn2}}</button></div>
+
+  </ion-content>
