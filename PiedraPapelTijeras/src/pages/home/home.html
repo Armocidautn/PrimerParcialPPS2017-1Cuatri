@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Piedra-Papel-Tijeras</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding style="background-image: url('assets/imagenes/fondoPpt.png') ">
+  <h3 align="center" class="letras"><u>PRUEBA TU SUERTE</u></h3>
+
+  <p>
+   Demuestra que eres el mejor en este tipo de juegos...
+  </p>
+
+  <button ion-button secondary block  color="light" (click)="irAppt()" style="font-family:arial;background:rgba(127, 179, 213 ,.6)"> INICIAR JUEGO</button>
+
+  <ion-card style="background:#ebe9f9">
+  <ion-card-header style="border-bottom:solid 2px black">
+    <h2 class="letras" > GANADORES</h2>
+  </ion-card-header>
+
+  <ion-list  align="center" style="background:#ebe9f9">
+  
+ <ion-item *ngFor="let ganador of ganadores " style="background:black">
+   <p style="color:white">
+    {{ganador}}
+     
+   </p>
+ </ion-item>
+
+  </ion-list>
+</ion-card>
+  <ion-card style="background:#ebe9f9">
+  <ion-card-header style="border-bottom:solid 2px black">
+    <h2 class="letras"> PERDEDORES</h2>
+  </ion-card-header>
+
+  <ion-list  align="center" style="background:#ebe9f9">
+  
+ <ion-item *ngFor="let perdedor of perdedores " style="background:black">
+   <p style="color:white">
+    {{perdedor}}
+     
+   </p>
+ </ion-item>
+
+  </ion-list>
+</ion-card>
+  <ion-card style="background:#ebe9f9">
+  <ion-card-header style="border-bottom:solid 2px black">
+    <h2 class="letras"> EMPATADOS</h2>
+  </ion-card-header>
+
+  <ion-list  align="center" style="background:#ebe9f9">
+  
+ <ion-item *ngFor="let empate of empatados " style="background:black">
+   <p style="color:white">
+    {{empate}}
+     
+   </p>
+ </ion-item>
+
+  </ion-list>
+</ion-card>
+</ion-content>
